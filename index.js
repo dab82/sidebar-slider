@@ -22,11 +22,13 @@ function changeSlide(direction) {
 		activeSlideIndex++;
 		if (activeSlideIndex === slidesCount) {
 			activeSlideIndex--;
+			// alert("Выше ничего нет");
 		}
 	} else if (direction === "down") {
 		activeSlideIndex--;
 		if (activeSlideIndex < 0) {
 			activeSlideIndex++;
+			// alert("Ниже ничего нет");
 		}
 	}
 
